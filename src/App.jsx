@@ -1,5 +1,6 @@
 import Aluno from "./components/Aluno"
 import Dados from "./components/Dados"
+import Contador from "./components/Contador"
 
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <Aluno nome="Fiap" idade="30"/>
       <Dados usuarios="Dev" email="dev@email.com"/>
+      <Contador />
     </>
   )
 }
